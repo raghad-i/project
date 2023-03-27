@@ -1,0 +1,243 @@
+body{
+    background-color: #f1f1f1;
+}
+.header{
+    background-image: url('../img/intro-bg.jpg');
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.p-slider{
+    width: 80%;
+}
+.text-slider p{
+    height: 39px;
+    font-size: 24px;
+    font-weight:200;
+    border-right: 4px solid #fff;
+    animation: width-text 2.5s infinite alternate;
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+}
+@keyframes width-text{
+    0%{
+        width:100% ;
+    }
+    100%{
+        width:0%;
+        
+    }
+} 
+.text-slider span::after{
+    content:" ";
+    animation: effect 22s infinite  ;
+}
+@keyframes effect{
+    0%{
+        content:"CEO DevFolio";  
+    }
+    10%{
+        content:"CEO DevFolio";    
+    }
+    
+    25%{
+        content:"Web Developer";
+       
+    }
+    50%{
+        content:"Web Designer";
+        
+    }
+    70%{
+        content:"Frontend Developer";
+        
+    }
+    100%{
+        content:"Graphic Designer";
+        
+    }
+
+}
+
+.bg-trans{
+    width:100%;
+    height:60px;
+    background-color:rgba(0,0,0,.5);
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.6);
+}
+.font-p{
+   font-size:1.25rem ;
+   line-height: 1.5;
+}
+.about h2:after{
+  content: "";
+  background-color: #0078ff;
+  position: absolute;
+  bottom: 90%;
+  left: 15px;
+  width: 100px;
+  height: 2.5px;
+
+}
+.service i{
+    border:10px solid #0078ff ;
+    height:120px;
+    width: 120px;
+    margin: 10px;
+
+}
+.service:hover i {
+    background-color:#0078ff;
+    color: #ffffff;
+    border:10px solid #cde1f8;
+}
+ h2:after{
+    content: "";
+    background-color: #0078ff;
+    position: absolute;
+    top: 12%;
+    left: 48%;
+    width: 40px;
+    height: 5px;
+  }
+.Counter{
+    height: 430px;
+    background: url('../img/post-3.jpg') fixed center ;
+
+}
+.overlay-2{
+    width:100%;
+    height:100%;
+    background-color: rgba(5, 103, 252, 0.7);
+}
+.Counter i{
+    border:10px solid #ffffff ;
+    height:80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.color-b{
+    color: #0078ff;
+}
+.PORTFOLIO i{
+    border:2px solid #0078ff ;
+    color: #0078ff;
+    height:30px;
+    width: 30px;
+    margin-top: 20px;
+}
+.protfo .pro-img {
+    overflow: hidden;
+}
+.protfo img{
+    width: 100%;
+    transition: transform 1s ;
+}
+.protfo:hover img{
+    transform: scale(1.3);   
+}
+.testmonials{
+    height: 650px;
+  
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+.testmonials li{
+height: 7px;
+width: 18px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #000;
+    width: 30px;
+}
+.bloges img{
+    position: relative;
+}
+.blog .small{
+    background-color: #0078ff;
+    padding:5px 14px;
+    border-radius:4px;
+    position: absolute;
+    bottom:49%;
+    left:50%;
+    transform: translate(-50%,50%);
+    color: #ffffff;
+}
+.color-s{
+    color: #4e4e4e;
+}
+.blog h2:after{
+        content: "";
+        background-color: #0078ff;
+        position: absolute;
+        top: 16%;
+        left: 48%;
+        width: 40px;
+        height: 5px;
+ }
+.blog h5{
+    transition: all 1s;
+}
+.blog h5:hover {
+      color: #0078ff;
+}
+.blog span {
+    transition: all 1s;
+}
+.blog a :hover {
+      color: #0078ff;
+}
+.contact{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    transition: all 1s;
+    position: relative;
+}
+.send button{
+    border:5px solid #0078ff !important;
+    transition: all 1s;
+   
+}
+.send button:hover{
+    opacity: 0.7;
+    border: #cde1f8 5px solid !important;
+}
+.contact ul{
+    list-style: none;
+}
+.contact h2:after{
+        content: "";
+        background-color: #0078ff;
+        position: absolute;
+        top: 9%;
+        left: 2%;
+        width: 100px;
+        height: 4px;
+ }
+ .container .icon i{
+    border:3px solid #0078ff ;
+    height:50px;
+    width: 50px;
+    margin: 10px;
+
+}
+.container .icon i:hover  {
+    background-color:#0078ff;
+    color: #ffffff;
+    border:3px solid #cde1f8;
+}
+.footer{
+    height: 110px;
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+
+}
